@@ -18,7 +18,7 @@ real_capacity = str(round(advertised_capacity * discrepancy, 2))
 print('The actual capacity is ' + real_capacity + ' ' + unit)
 
 
-today_is_opposite_day = True
+today_is_opposite_day = input('>')
 
 # Set say_it_is_opposite_day based on today_is_opposite_day:
 if today_is_opposite_day == True:
